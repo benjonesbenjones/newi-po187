@@ -3,9 +3,9 @@
 
 NB: This repository does not follow project structure best practices.
 
-nevwisc/wisc.py, when run, will generate a .csv file consisting of columns describing questions within the Wisconsin MOVE Scoresheets, with rows corresponding to every county.
+nevwisc/wisc.py, when run, will generate a .csv file consisting of columns describing questions within the Wisconsin MOVE Scoresheets, with rows corresponding to every county. nevwisc/nev.py will do the same for Nevada counties.
 
-The .csv file for Wisconsin can be found within nevwisc/assets/results.csv. If the results are all you are interested in, download the file and open it with Excel or Numbers on MacOS.
+The .csv file for Wisconsin can be found within nevwisc/assets/wi_results.csv, and Nevada can be found within nevwisc/assets/nv_results.csv. If the results are all you are interested in, download the file and open it with Excel or Numbers on MacOS.
 
 The ACS codes used to generate the data within the Census API can be found in questions.py - open using your favourite text editor.
 
