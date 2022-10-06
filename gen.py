@@ -127,9 +127,8 @@ def getData(state):
 		else:
 			county_name = str(state.fips) + str(key)
 			value = pd.concat([county_fips, value]).reset_index(drop = True)
-		xlsx_dict[county_name] = value
+		xlsx_dict[county_name[0:31]] = value
 		
-	print(len(xlsx_dict))
 	save_xls(xlsx_dict, 'assets/results/{}_result.xlsx'.format(state.abbr))
 	return
 
@@ -137,6 +136,7 @@ def getData(state):
 state = str(input('input state:	'))
 
 if state == '*':
+	start_time = time.time()
 	state = us.states.STATES
 	for i in state:
 		getData(i)
