@@ -1,5 +1,5 @@
 ## NEWI
-#### Automating ACS-5y Data Collection for PO187G-SC: Voting Rights Practicum
+#### Automating Data Collection for MoVE: Voting Rights Project
 
 NB: This repository does not follow project structure best practices.
 
@@ -10,3 +10,4 @@ Generated results are in assets/results/[abbr]_result.xlsx
 UPDATE MAR '23:
 This repository is part of a wider project to automate data collection for CGU's MoVE Project.
 Currently, the code is poorly structured and a work-in-progress.
+Originally written as part of the Voting Rights Practicum course, adapted into larger MoVE project
