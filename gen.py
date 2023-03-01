@@ -2,9 +2,8 @@ import time
 start_time = time.time()
 
 import pandas as pd
-from census import Census
-import us
 from tqdm import tqdm
+import us
 import re
 import requests
 import numpy

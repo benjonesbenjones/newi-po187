@@ -16,7 +16,7 @@ questions = {
 	'Ratio of Black, Asian, and Hispanic participation to white participation' : ' ( S2301_C02_013E + S2301_C02_015E + S2301_C02_019E ) / ( S2301_C02_020E ) ',
 	
 	'Overall managerial' : 'B08124_002E',
-	'White, non-Hispanic managerial' : ' ( C24010A_003E + C24010H_009E ) / ( S2301_C01_020EA / B01001H_001E )',
+	'White, non-Hispanic managerial' : ' ( C24010A_003E + C24010H_009E ) / ( S2301_C01_020E / B01001H_001E )',
 	'Native American alone managerial' : '( C24010C_003E + C24010C_009E ) / ( S2301_C01_014E / B01001C_001E )',
 	'Black alone managerial' : '( C24010B_003E + C24010B_003E ) / ( S2301_C01_013E / B01001B_001E )',
 	'Asian managerial' : '( C24010D_003E + C24010D_009E ) / ( S2301_C01_015E / B01001D_001E )',
