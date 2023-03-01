@@ -32,14 +32,14 @@ questions = {
 	'Hispanic median earnings' : 'B20017I_001E',
 	
 	'Overall population with BA or better' : 'B06009_005E + B06009_006E',
-	'White, non-Hispanic with BA or better' : 'S1501_C02_033EA',
+	'White, non-Hispanic with BA or better' : 'S1501_C02_033E',
 	'Black alone with BA or better' : 'S1501_C02_036E',
 	'Native American alone with BA or better' : 'S1501_C02_039E',
 	'Asian with BA or better' : 'S1501_C02_042E',
 	'Hispanic with BA or better' : 'S1501_C02_054E',
-	'Ratio of Native Americans to whites with BA or more education' : 'S1501_C02_039E / S1501_C02_033EA',
+	'Ratio of Native Americans to whites with BA or more education' : 'S1501_C02_039E / S1501_C02_033E',
 
-	'Overall percentage below the poverty level' : 'S1703_C03_001E',
+	'Overall percentage below the poverty level' : 'S1701_C03_001E',
 	'White, non-Hispanic below poverty level' : 'S1701_C03_021E',
 	'Black alone below poverty level' : 'S1701_C03_014E',
 	'Native American alone below poverty level' : 'S1701_C03_015E',
@@ -62,3 +62,13 @@ products = {
 	'C' : '',
 	'D' : '/profile'
 }
+
+
+# White, non-Hispanic managerial                                   72		( C24010A_003E + C24010H_009E ) / ( S2301_C01_020EA / B01001H_001E )
+# Asian managerial                                                  1 		( C24010D_003E + C24010D_009E ) / ( S2301_C01_015E / B01001D_001E )
+# White, non-Hispanic with BA or better                            72		x S1501_C02_033EA -> S1501_C02_033E
+# Ratio of Native Americans to whites with BA or more education    72		x S1501_C02_039E / S1501_C02_033EA -> S1501_C02_039E / S1501_C02_033E
+# Overall percentage below the poverty level                       45		x S1703_C03_001E -> S1701_C03_001E
+
+
+
