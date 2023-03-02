@@ -1,8 +1,8 @@
 from googleapiclient.discovery import build
 import json as j
 
-API_KEY = 'AIzaSyD5R-0HKVeJf3aGzBcdMKT5qKmbSvlZteA'
-SEARCH_ID = '70d7331a380104754'
+API_KEY = 'no'
+SEARCH_ID = 'no'
 
 
 def google_search(search_term, api_key, cse_id, **kwargs):
